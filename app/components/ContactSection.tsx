@@ -37,13 +37,6 @@ export default function ContactSection() {
       description: "Entraremos em contato em breve.",
     });
 
-    console.log({
-      name,
-      email,
-      phone,
-      message,
-    });
-
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
 

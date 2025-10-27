@@ -90,7 +90,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-border">
+          <div className="lg:hidden py-4 mb-4 border-border bg-ring p-6 rounded-2xl">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <Link
@@ -107,7 +107,7 @@ const Navbar = () => {
               <Button
                 asChild
                 variant="default"
-                className="bg-gradient-gold hover:opacity-90 w-full"
+                className="bg-secondary-foreground hover:opacity-50 w-full"
               >
                 <Link
                   href="/contact"

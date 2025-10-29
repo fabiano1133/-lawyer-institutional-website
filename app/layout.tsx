@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AMABE - APP",
-  description: "Associação Maçônica Beneficente",
+  title: "Advogados Associados",
+  description: "Escritório de Advocacia em Belém",
 };
 
 export default function RootLayout({
